@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: vite-frontend
+    ports:
+      - "5173:5173"
+    # volumes:
+    #   - ./frontend:/app
+    # environment:
+    #   - VITE_API_BASE_URL=http://localhost:8000
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laravel-backend
+    ports:
+      - "8000:80"
+     
+  
