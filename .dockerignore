@@ -1,0 +1,11 @@
+.git
+.github
+.gitignore
+.dockerignore
+vendor
+Dockerfile
+README.md
+.editorconfig
+.gitattributes
+
+start.sh
