@@ -2,8 +2,10 @@
 .github
 .gitignore
 .dockerignore
+frontend
 vendor
 Dockerfile
+docker-compose.yml
 README.md
 .editorconfig
 .gitattributes
